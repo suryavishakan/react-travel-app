@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useFetch } from "../hooks/useFetch";
+
+// Import CSS
 import "./TripList.css";
 
 const TripList = () => {
