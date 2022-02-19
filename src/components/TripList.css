@@ -1,0 +1,40 @@
+.trip-list {
+  margin: 2.5rem auto;
+  padding: 2rem 4rem;
+  width: 480px;
+}
+
+.trip-list h2 {
+  font-size: 2rem;
+  color: cyan;
+}
+
+.trip-list li {
+  border: 1px solid #46565c;
+  padding: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.trip-list p {
+  margin-top: 1rem;
+}
+
+.trip-list .filters {
+  display: flex;
+  gap: 10px;
+}
+
+.trip-list button {
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-grow: 1;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: aqua;
+  color: #1c2833;
+}

@@ -1,0 +1,28 @@
+{
+  "trips": [
+    {
+      "title": "2 Night Stay in Kerala",
+      "price": "$195",
+      "id": 1,
+      "loc": "india"
+    },
+    {
+      "title": "3 Night Stay in Varanasi",
+      "price": "$295",
+      "id": 2,
+      "loc": "india"
+    },
+    {
+      "title": "4 Night Stay in Agra",
+      "price": "$345",
+      "id": 3,
+      "loc": "india"
+    },
+    {
+      "title": "3 Night Stay in New York",
+      "price": "$325",
+      "id": 4,
+      "loc": "america"
+    }
+  ]
+}
