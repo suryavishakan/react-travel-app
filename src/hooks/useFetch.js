@@ -1,13 +1,17 @@
 import { useState, useEffect } from "react";
 
 export const useFetch = (url) => {
+  // state for data change
   const [data, setData] = useState(null);
+
   //   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // useEffect hook to manage infinite fetch requests
   useEffect(() => {
     const controller = new AbortController();
 
+    // async function to fetch the data
     const fetchData = async () => {
       //   setIsLoading(true);
       try {
@@ -30,6 +34,7 @@ export const useFetch = (url) => {
       }
     };
 
+    // call/invoke the function
     fetchData();
 
     // cleanup function
@@ -38,5 +43,6 @@ export const useFetch = (url) => {
     };
   }, [url]);
 
+  // return the data and the error, which is to be passed to the App.js
   return { data, error };
 };
